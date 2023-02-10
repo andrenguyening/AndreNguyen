@@ -1,95 +1,97 @@
 *{
-    margin:0;
-    padding:0;
-    background-color: rgb(16, 37, 66);
-    zoom: 100%;
-    animation: fadeInAnimation ease 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    overflow-x: hidden;
+  margin:0;
+  padding:0;
+  background-color: rgb(16, 37, 66);
+  zoom: 100%;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  overflow-x: hidden;
 }
 
 @keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-     }
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
 }
 
 .rest{
-    color:white;
+  color:white;
 }
 
 .name {
-    background-color: rgb(16, 37, 66);
-    color: rgb(248, 112, 96);
-    font-size: 90px;
-    margin-top: 100px;
+  background-color: rgb(16, 37, 66);
+  color: rgb(248, 112, 96);
+  font-size: 90px;
+  margin-top: 100px;
+  margin-left: 180px;
+
 }
 
 .description{
-    color:antiquewhite;
-    font-size: 50px;
-    margin-left: 180px;
+  color:antiquewhite;
+  font-size: 50px;
+  margin-left: 180px;
 
 }
 
 body{
-    background-color: rgb(16, 37, 66);
-    /* font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; */
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: rgb(16, 37, 66);
+  /* font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; */
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 
 .navbar {
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0 1rem;   
-  }
-  
-  .navbar li a {
-    font-size: larger;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;;
-    color: #fff;
-    padding: 1.5rem;
-    display: block;
-    transition: background-color 0.3s ease-in-out; 
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 1rem;   
+}
+
+.navbar li a {
+  font-size: larger;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;;
+  color: #fff;
+  padding: 1.5rem;
+  display: block;
+  transition: background-color 0.3s ease-in-out; 
 
 
-  }
-  
-  .navbar li a:hover {
-    background-color: rgb(248, 112, 96);
-  }
+}
 
-  .main{
-    background-color: rgb(16, 37, 66);
-    color: #fff;
-  }
-  
-  .buttons{
-    background: rgb(248, 112, 96);
-    border-radius: 999px;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    cursor: pointer;
-    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    opacity: 1;
-    outline: 0 solid transparent;
-    padding: 8px 18px;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    width: fit-content;
-    word-break: break-word;
-    border: 0;
-  }
+.navbar li a:hover {
+  background-color: rgb(248, 112, 96);
+}
+
+.main{
+  background-color: rgb(16, 37, 66);
+  color: #fff;
+}
+
+.buttons{
+  background: rgb(248, 112, 96);
+  border-radius: 999px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
